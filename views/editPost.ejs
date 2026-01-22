@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h1>
-        Edit your post
+        Edit your post :
     </h1>
 
     <form method="post" action="/posts/<%= post.id%>?_method=PATCH">
@@ -16,7 +17,7 @@
         <h3>Post username:<%= post.username%></h3>
 
         <textarea name="content" id="content" cols="35" rows="12"><%= post.content%></textarea>
-        <button>submit</button>
+        <button class="btn-1">submit</button>
         </div>
 
     </form>
