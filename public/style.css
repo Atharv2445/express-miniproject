@@ -1,17 +1,48 @@
 body{
-
+   margin-top:80px;
+   margin-left: 500px  ;
+   height: 100vh;
+  
     background-color:burlywood;
 }
 
 h1{
-
+     height: 60px;
     color: maroon;
+    background-color: chocolate;
+    padding-left:20px;
+    border-top-right-radius: 8px;
+     border-top-left-radius: 8px;
+   
+    margin: auto;
+    
+    
+}
+.allpost{
+   
+
+   background-color: blanchedalmond;
+  height: 600px;
+  width: 600px;
+  
+  border: 2px  solid  blanchedalmond;
+  border-radius: 8px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+
+
 }
 .post{
-    background-color: blanchedalmond;
+    background-color: burlywood ;
+    width: 100%;
+    
 }
 .user{
     font-style: italic;
+    padding-left:20px;
+
+}
+.content{
+  padding-left:20px;
 }
 form{
     display: inline;
@@ -20,8 +51,8 @@ form{
 
  /* From Uiverse.io by bandirevanth */ 
 .btn-1 {
- width: 70px;
- height: 26px;
+ width: 80px;
+ height: 30px;
  color: #fff;
  border-radius: 5px;
  
@@ -36,7 +67,7 @@ form{
    7px 7px 20px 0px rgba(0,0,0,.1),
    4px 4px 5px 0px rgba(0,0,0,.1);
  outline: none;
- margin-left: 10px;
+ margin-left: 100px;
 }
 
 .btn-1 {

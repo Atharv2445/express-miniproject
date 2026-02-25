@@ -11,12 +11,12 @@
         Edit your post :
     </h1>
 
-    <form method="post" action="/posts/<%= post.id%>?_method=PATCH">
+    <form method="post" action="/posts/<%= user.id%>?_method=PATCH">
         <div class="post">
-        <h3>Post id:<%= post.id%></h3>
-        <h3>Post username:<%= post.username%></h3>
+        <h3>Post id:<%= user.id%></h3>
+        <h3>Post username:<%= user.username%></h3>
 
-        <textarea name="content" id="content" cols="35" rows="12"><%= post.content%></textarea>
+        <textarea name="content" id="content" cols="35" rows="12"><%= user.content%></textarea>
         <button class="btn-1">submit</button>
         </div>
 
