@@ -5,14 +5,10 @@ const port=8080;
 const path=require("path");
 const methodOverride = require('method-override');
 const mysql=require("mysql2");
-const { faker } = require('@faker-js/faker');
-
-
- 
+//const { faker } = require('@faker-js/faker');
 
 
 
- 
 
 
 app.use(methodOverride('_method'));

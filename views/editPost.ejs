@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>
-        Edit your post :
-    </h1>
 
     <form method="post" action="/posts/<%= user.id%>?_method=PATCH">
+       <div class="allpost">
+        <h1>
+        Edit your post :
+        </h1>
         <div class="post">
         <h3>Post id:<%= user.id%></h3>
         <h3>Post username:<%= user.username%></h3>
 
-        <textarea name="content" id="content" cols="35" rows="12"><%= user.content%></textarea>
-        <button class="btn-1">submit</button>
+        <textarea name="content" id="content" cols="40" rows="12"><%= user.content%></textarea>
+        <br><br>
+        
+         <button class="btn-1">submit</button>
+        <a href="http://localhost:8080/posts">Back</a>
+        <br>
+        </div>
         </div>
 
     </form>
